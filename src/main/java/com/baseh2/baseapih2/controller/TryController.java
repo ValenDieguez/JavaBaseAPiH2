@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/task")
+@RequestMapping("/try")
 @CrossOrigin(origins = "http://localhost:4200")
 public class TryController {
 

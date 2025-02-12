@@ -9,7 +9,7 @@ import java.time.ZonedDateTime;
 
 @Data
 @Entity
-@Table(name="task")
+@Table(name="try")
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class TryDTO {
 
@@ -21,6 +21,6 @@ public class TryDTO {
     private String name;
     @Column
     private String description;
-    @Column(name = "DUEDATE")
+    @Column(name = "date")
     private ZonedDateTime dueDate;
 }
